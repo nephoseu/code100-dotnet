@@ -8,8 +8,8 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        string email = "ws2-round2@code100.dev"; // replace with email or username given to you
-        string password = "PYJI-9XKM-NTT9"; // replace with password given to you
+        string email = "EMAIL-OR-USERNAME-HERE"; // replace with email or username given to you
+        string password = "PASSWORD-HERE"; // replace with password given to you
 
         // Step 1: Login
         using (var client = new HttpClient())
